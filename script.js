@@ -1,6 +1,6 @@
 const textEl = document.getElementById('text')
 const speedEl = document.getElementById('speed')
-const text = 'I love Coding!'
+const text = 'Coding to Learn, Learning to Code!'
 
 //where in text - index
 let idx = 1

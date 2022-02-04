@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Special+Elite&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: lightskyblue;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(19, 182, 200);
+    font-family:'Special Elite', cursive;
     color:rgb(247, 247, 247);
     display: flex;
     flex-direction: column;
@@ -17,16 +19,20 @@ body {
 
 div {
     position: absolute;
-    bottom: 20px;
+    bottom: 28px;
     background: rgba(0,0,0,0.1);
     padding: 10px 20px;
-    font-size: 22px;
+    font-size: 18px;
+}
+
+#text {
+    font-size: 50px;
 }
 
 input {
     width: 50%;
     padding: 5px;
-    font-size: 22px;
+    font-size: 18px;
     background-color: lightskyblue;
     color:rgb(23, 48, 123);
     border: none;
